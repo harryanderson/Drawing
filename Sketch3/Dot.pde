@@ -15,6 +15,7 @@ class Dot {
   float speedX = random(-5.0,5.0);
   float speedY = random(-5.0,5.0);
   
+  //constructor
   Dot (float tempX, float tempY) {
   
     x = tempX;
@@ -31,6 +32,8 @@ class Dot {
     noStroke();
     fill(col1, col2, col3);
     ellipse(x,y,size,size);
+    println("x = " + str(x));
+    println("y = " + str(y));
 
   }
   
