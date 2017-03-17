@@ -4,7 +4,7 @@ void setup() {
 
   size(640, 480);
   dots = new ArrayList<Dot>();
-  dots.add(new Dot(width/2,height/2));
+  //dots.add(new Dot(width/2,height/2));
 }
 
 void update() {
